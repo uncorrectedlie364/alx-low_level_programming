@@ -7,6 +7,7 @@
 
 	void print_times_table(int n);
 {
+	    _time_table();
 	    print_times_table(3);
 	    _putchar('\n');
 	    print_times_table(5);
