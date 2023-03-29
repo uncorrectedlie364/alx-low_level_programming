@@ -1,1 +1,1 @@
-My first C projects
+More pointers, arrays and strings, all my files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89, use the Betty style,they will be checked using betty-style.pl and betty-doc.pl
