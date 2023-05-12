@@ -2,14 +2,14 @@
 #include <stdlib.h>
 
 /**
- * read_textfile - Reads the text file to STDOU
+ * read_textfile - Reads the text file to STDOUT
  * @filename : the text file being read
  * @letter : the number of letters read
- * Return : w-vactual number of bytes that are read and printed
+ * Return : w- actual number of bytes that are read and printed
  * 0 (when the function fails or filename is NULL)
  */
 
-ssize_t reda_textfile(const char *filename, size_t letters)
+ssize_t read_textfile(const char *filename, size_t letters)
 {
 	char *buf;
 	ssize_t fd;
@@ -17,9 +17,9 @@ ssize_t reda_textfile(const char *filename, size_t letters)
 	ssize_t t;
 
 	fd = open(filename, O_RDONLY);
-	if(fd == -1)
+	if (fd == -1)
 		return (0);
-	buf = malloc(sizof(char)*letters);
+	buf = malloc(sizof(char) * letters);
 	t = read(fd, buf, letters);
 	w = write(STDOUT_FILENO, buf, t);
 
