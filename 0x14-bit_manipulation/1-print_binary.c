@@ -2,7 +2,7 @@
 
 /**
  * print_binary - prints tge binary equivalent of a decimal number
- * @n ; number to print in binary
+ * @n : number to print in binary
  */
 
 void print_binary(unsigned long int n)
