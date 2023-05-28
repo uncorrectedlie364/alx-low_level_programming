@@ -1,1 +1,0 @@
-kawai inu typedef
